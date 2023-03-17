@@ -1,0 +1,134 @@
+@import url(./reset.css);
+
+:root {
+  --app-dark-bg: #1a1d28;
+  --app-green: #33ab4e;
+  --app-purple: #833cff;
+  --app-orange: #ff833c;
+  --app-blue: #3c57ff;
+  --app-blue-hover: #364ee6;
+  --app-red: #ff3c57;
+  --app-red-hover: #ff2846;
+  --app-white:#fff;
+  --app-gray:#575555;
+  --app-pink:#f09;
+}
+
+body {
+  background-color: var(--app-dark-bg);
+}
+
+/* clock
+*/
+
+.center {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+h2 {
+  color: #f3dfdf;
+}
+
+form {
+  
+  padding: 10px, 5px;
+}
+
+
+/*form */
+input {
+  margin-left: 20px;
+  width: 500px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+  transition:  all 0.25s ease-in-out;
+  cursor: pointer;
+  background-color: rgb(255 255 255/0.15);
+}
+
+
+input[type=text] {
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+}
+
+input[type=text]:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+button  {
+  margin-left: 20px;
+  width: 140px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 800;
+  transition:  all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.add {
+  background-color: #33ab4e;
+}
+
+.add:hover {
+  background-color: #086e20;
+}
+
+/*box
+*/
+
+.box {
+  width: 900px;
+  height: 580px;
+  margin: 25px auto 0;
+  border-radius: 7px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+   /* change grid-template-columns to include a fixed width column for savecontact */
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px 10px;
+  grid-auto-flow: row;
+}
+
+.savecontact {
+  margin: 15px;
+  width: 260px;
+  height: 160px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: rgb(255 255 255/0.15);
+}
+
+/*output
+*/
+
+.output {
+  position: fixed;
+  right: 40px;
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: var(--app-blue);
+  color: #fff;
+  padding-top: 10px;
+  font-weight: 100;
+  letter-spacing: 0.4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.output { bottom: 30px; }
+
+.output:hover {
+ background-color: var(--app-blue-hover);
+}
+ 
