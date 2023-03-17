@@ -1,6 +1,6 @@
 ### Hi there 👋 Welcome 
 
-Click [here]() to generate shapes in my Contacts.
+Click [here](https://nathanshuai.github.io/My-contacts/) to generate shapes in my Contacts.
 
 <br />
 
@@ -9,4 +9,4 @@ Click [here]() to generate shapes in my Contacts.
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 # My-contacts
 
-# My-contacts
+
